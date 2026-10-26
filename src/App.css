@@ -82,3 +82,68 @@ body{
 .card h3{
   color:#2563eb;
 }
+.search-page{
+  display:flex;
+  padding:30px;
+  gap:30px;
+}
+
+.filters{
+  width:250px;
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.filters label{
+  display:block;
+  margin-top:15px;
+  margin-bottom:5px;
+}
+
+.filters select{
+  width:100%;
+  padding:10px;
+}
+
+.results{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+}
+.details-page{
+  max-width:1200px;
+  margin:auto;
+  padding:30px;
+}
+
+.details-image img{
+  width:100%;
+  border-radius:12px;
+}
+
+.details-content{
+  background:white;
+  margin-top:20px;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.details-content h1{
+  color:#0f172a;
+}
+
+.details-content h2{
+  color:#2563eb;
+}
+
+.contact-btn{
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:8px;
+  cursor:pointer;
+}
