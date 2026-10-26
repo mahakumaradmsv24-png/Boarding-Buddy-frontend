@@ -7,19 +7,17 @@ function Home() {
     <>
       <Navbar />
 
-      <div className="hero">
+      <section className="hero">
         <h1>Find Your Perfect Boarding Place</h1>
 
         <p>
-          Smart Boarding Place Management System
-          for University Students
+          Smart Boarding Place Management System for University Students
         </p>
 
         <SearchBar />
-      </div>
+      </section>
 
-      <div className="cards">
-
+      <section className="cards">
         <BoardingCard
           title="Green Hostel"
           price="Rs. 15,000 / Month"
@@ -37,7 +35,7 @@ function Home() {
           price="Rs. 20,000 / Month"
           distance="700m from University"
         />
-      </div>
+      </section>
     </>
   );
 }
