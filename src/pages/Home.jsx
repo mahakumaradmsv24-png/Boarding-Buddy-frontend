@@ -15,9 +15,23 @@ function Home() {
 
       <hr />
 
-      <BoardingCard />
-      <BoardingCard />
-      <BoardingCard />
+      <BoardingCard
+  title="Green Hostel"
+  price="Rs. 15,000 / Month"
+  distance="500m from University"
+/>
+
+<BoardingCard
+  title="City Boarding"
+  price="Rs. 18,000 / Month"
+  distance="1km from University"
+/>
+
+<BoardingCard
+  title="Lake View Rooms"
+  price="Rs. 20,000 / Month"
+  distance="700m from University"
+/>
     </div>
   );
 }

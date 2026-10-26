@@ -1,9 +1,9 @@
-function BoardingCard() {
+function BoardingCard({ title, price, distance }) {
   return (
-    <div>
-      <h3>Green Hostel</h3>
-      <p>Rs. 15,000 / Month</p>
-      <p>500m from University</p>
+    <div className="card">
+      <h3>{title}</h3>
+      <p>{price}</p>
+      <p>{distance}</p>
     </div>
   );
 }
