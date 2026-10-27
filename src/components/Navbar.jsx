@@ -27,6 +27,14 @@ function Navbar() {
           Map
         </Link>
 
+        <Link to="/compare" className="nav-link">
+          Compare
+        </Link>
+
+        <Link to="/add" className="nav-link">
+          Add Boarding
+        </Link>
+
       </div>
     </nav>
   );
