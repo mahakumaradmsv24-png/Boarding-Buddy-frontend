@@ -253,19 +253,53 @@ body{
   transition:0.3s;
   background:#eff6ff;
 }
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 40px;
+
+  background:linear-gradient(
+    90deg,
+    #0f172a,
+    #1e293b
+  );
+
+  position:sticky;
+  top:0;
+  z-index:1000;
+
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.navbar h2{
+  color:white;
+  margin:0;
+  font-size:24px;
+}
+
 .nav-links{
   display:flex;
-  gap:20px;
+  align-items:center;
+  gap:12px;
 }
 
 .nav-link{
-  color:white;
   text-decoration:none;
-  font-weight:bold;
+  color:white;
+  padding:10px 16px;
+  border-radius:8px;
+  font-weight:600;
+  transition:all 0.3s ease;
 }
 
 .nav-link:hover{
-  color:#93c5fd;
+  background:#2563eb;
+  color:white;
+}
+
+.nav-link:active{
+  transform:scale(0.98);
 }
 .property-card{
   width:280px;
@@ -537,4 +571,74 @@ th,td{
   padding:25px;
   border-radius:12px;
   box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+.dashboard{
+  padding:40px;
+  text-align:center;
+}
+
+.dashboard h1{
+  font-size:48px;
+  margin-bottom:10px;
+  color:#0f172a;
+}
+
+.dashboard-subtitle{
+  color:#64748b;
+  margin-bottom:40px;
+  font-size:18px;
+}
+
+.dashboard-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:25px;
+}
+
+.dashboard-card{
+  text-decoration:none;
+  color:white;
+  padding:30px 20px;
+  border-radius:16px;
+  min-height:160px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  transition:0.3s;
+}
+
+.dashboard-card:hover{
+  transform:translateY(-6px);
+}
+
+.dashboard-card h2{
+  margin-bottom:10px;
+}
+
+.home-card{
+  background:#2563eb;
+}
+
+.search-card{
+  background:#16a34a;
+}
+
+.details-card{
+  background:#9333ea;
+}
+
+.map-card{
+  background:#ea580c;
+}
+
+.compare-card{
+  background:#0891b2;
+}
+
+.add-card{
+  background:#dc2626;
+}
+
+.owner-card{
+  background:#0f172a;
 }
