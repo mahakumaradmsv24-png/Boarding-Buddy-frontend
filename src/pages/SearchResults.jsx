@@ -1,22 +1,22 @@
 import Navbar from "../components/Navbar";
-import BoardingCard from "../components/BoardingCard";
 
 function SearchResults() {
   return (
     <>
       <Navbar />
 
-      <div className="search-page">
+      <div className="search-layout">
 
-        <div className="filters">
+        <div className="filter-panel">
 
-          <h2>Filters</h2>
+          <h3>Filters</h3>
 
-          <label>Price Range</label>
+          <label>Monthly Rent</label>
           <select>
             <option>Any</option>
-            <option>Under Rs. 15,000</option>
-            <option>Under Rs. 20,000</option>
+            <option>Under 15,000</option>
+            <option>15,000 - 20,000</option>
+            <option>20,000+</option>
           </select>
 
           <label>Room Type</label>
@@ -33,27 +33,52 @@ function SearchResults() {
             <option>Under 1km</option>
           </select>
 
+          <button className="search-btn">
+            Apply Filters
+          </button>
+
         </div>
 
-        <div className="results">
+        <div className="boarding-list">
 
-          <BoardingCard
-            title="Green Hostel"
-            price="Rs. 15,000 / Month"
-            distance="500m from University"
-          />
+          <div className="listing-card">
+            <div className="listing-image">
+              Boarding Image
+            </div>
 
-          <BoardingCard
-            title="City Boarding"
-            price="Rs. 18,000 / Month"
-            distance="1km from University"
-          />
+            <div className="listing-content">
+              <h3>Saman Student Residence</h3>
+              <p>500m from University</p>
+              <h2>LKR 18,000</h2>
+              <button>View Details</button>
+            </div>
+          </div>
 
-          <BoardingCard
-            title="Lake View Rooms"
-            price="Rs. 20,000 / Month"
-            distance="700m from University"
-          />
+          <div className="listing-card">
+            <div className="listing-image">
+              Boarding Image
+            </div>
+
+            <div className="listing-content">
+              <h3>Nirmala Girls Boarding</h3>
+              <p>1km from University</p>
+              <h2>LKR 16,000</h2>
+              <button>View Details</button>
+            </div>
+          </div>
+
+          <div className="listing-card">
+            <div className="listing-image">
+              Boarding Image
+            </div>
+
+            <div className="listing-content">
+              <h3>Rathna Student House</h3>
+              <p>700m from University</p>
+              <h2>LKR 22,000</h2>
+              <button>View Details</button>
+            </div>
+          </div>
 
         </div>
 

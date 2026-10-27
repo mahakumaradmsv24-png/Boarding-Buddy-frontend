@@ -5,41 +5,61 @@ function BoardingDetails() {
     <>
       <Navbar />
 
-      <div className="details-page">
+      <div className="details-wrapper">
 
-        <div className="details-image">
-          <img
-            src="https://via.placeholder.com/800x400"
-            alt="Boarding"
-          />
+        <div className="details-left">
+
+          <div className="main-image">
+            Main Boarding Image
+          </div>
+
+          <div className="gallery-row">
+
+            <div className="small-image">Image 1</div>
+            <div className="small-image">Image 2</div>
+            <div className="small-image">Image 3</div>
+
+          </div>
+
+          <div className="description-box">
+
+            <h2>Saman Student Residence</h2>
+
+            <p>
+              A comfortable boarding place located near the university.
+              Includes WiFi, study area, parking and laundry facilities.
+            </p>
+
+            <h3>Facilities</h3>
+
+            <ul>
+              <li>WiFi</li>
+              <li>Study Area</li>
+              <li>Laundry</li>
+              <li>Parking</li>
+            </ul>
+
+          </div>
+
         </div>
 
-        <div className="details-content">
-          <h1>Green Hostel</h1>
+        <div className="details-right">
 
-          <h2>Rs. 15,000 / Month</h2>
+          <div className="price-card">
 
-          <p>
-            Comfortable boarding place for university students.
-            Walking distance to university.
-          </p>
+            <h2>LKR 18,000</h2>
 
-          <h3>Facilities</h3>
+            <p>per month</p>
 
-          <ul>
-            <li>WiFi</li>
-            <li>Water</li>
-            <li>Parking</li>
-            <li>Study Area</li>
-          </ul>
+            <button className="contact-btn">
+              Contact Owner
+            </button>
 
-          <h3>Distance</h3>
+            <button className="contact-btn secondary-btn">
+              Add to Favorites
+            </button>
 
-          <p>500m from University</p>
-
-          <button className="contact-btn">
-            Contact Owner
-          </button>
+          </div>
 
         </div>
 

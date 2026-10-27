@@ -7,35 +7,39 @@ function Home() {
     <>
       <Navbar />
 
-      <section className="hero">
-        <h1>Find Your Perfect Boarding Place</h1>
+      <div className="hero">
+
+        <h1>Find your place, close to campus</h1>
 
         <p>
-          Smart Boarding Place Management System for University Students
+          Discover the best boarding places near your university.
         </p>
 
         <SearchBar />
-      </section>
 
-      <section className="cards">
+      </div>
+
+      <div className="cards">
+
         <BoardingCard
-          title="Green Hostel"
-          price="Rs. 15,000 / Month"
+          title="Saman Student Residence"
+          price="LKR 18,000"
           distance="500m from University"
         />
 
         <BoardingCard
-          title="City Boarding"
-          price="Rs. 18,000 / Month"
+          title="Nirmala Girls Boarding"
+          price="LKR 16,000"
           distance="1km from University"
         />
 
         <BoardingCard
-          title="Lake View Rooms"
-          price="Rs. 20,000 / Month"
+          title="Rathna Student House"
+          price="LKR 22,000"
           distance="700m from University"
         />
-      </section>
+
+      </div>
     </>
   );
 }
