@@ -8,6 +8,8 @@ import SearchResults from "./pages/SearchResults";
 import BoardingDetails from "./pages/BoardingDetails";
 import MapPage from "./pages/MapPage";
 import OwnerDashboard from "./pages/OwnerDashboard";
+import AddBoarding from "./pages/AddBoarding";
+import ComparePage from "./pages/ComparePage";
 
 function App() {
   return (
@@ -25,6 +27,10 @@ function App() {
         <Route path="/map" element={<MapPage />} />
 
         <Route path="/owner" element={<OwnerDashboard />} />
+
+        <Route path="/add" element={<AddBoarding />} />
+
+        <Route path="/compare" element={<ComparePage />} />
 
       </Routes>
     </BrowserRouter>
