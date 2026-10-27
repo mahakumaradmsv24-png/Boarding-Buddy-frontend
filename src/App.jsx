@@ -7,16 +7,25 @@ import Home from "./pages/Home";
 import SearchResults from "./pages/SearchResults";
 import BoardingDetails from "./pages/BoardingDetails";
 import MapPage from "./pages/MapPage";
+import OwnerDashboard from "./pages/OwnerDashboard";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
+
         <Route path="/" element={<Dashboard />} />
+
         <Route path="/home" element={<Home />} />
+
         <Route path="/search" element={<SearchResults />} />
+
         <Route path="/details" element={<BoardingDetails />} />
+
         <Route path="/map" element={<MapPage />} />
+
+        <Route path="/owner" element={<OwnerDashboard />} />
+
       </Routes>
     </BrowserRouter>
   );
