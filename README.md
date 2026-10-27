@@ -1,16 +1,28 @@
-# React + Vite
+Boarding Buddy
+Boarding Buddy is a Smart Boarding Accommodation Management System developed for university students.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Boarding & Room Management
+Boarding Image Management
+Search & Filtering
+Map & GPS Integration
+Distance Detection
+Nearby Boarding Detection
+Search Result Ranking
+NLP-Based Search
+Duplicate Listing Detection
+Technologies
+React.js
+JavaScript
+CSS
+React Router
+GitHub
+Team
+CodeForge - Group 11
 
-Currently, two official plugins are available:
+Member 02 Responsibilities:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Boarding Listings
+Search & Geo Intelligence
+Image Management
+Map & GPS Integration
